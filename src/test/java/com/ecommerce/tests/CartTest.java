@@ -1,35 +1,35 @@
-// PACKAGE declaration — this file belongs to tests group
+// PACKAGE declaration ï¿½ this file belongs to tests group
 package com.ecommerce.tests;
 
 // Import our page classes created earlier
-// LoginPage — needed to login before testing cart
+// LoginPage ï¿½ needed to login before testing cart
 import com.ecommerce.pages.LoginPage;
 
-// InventoryPage — needed to add products to cart
+// InventoryPage ï¿½ needed to add products to cart
 import com.ecommerce.pages.InventoryPage;
 
-// CartPage — has all cart page actions and locators
+// CartPage ï¿½ has all cart page actions and locators
 import com.ecommerce.pages.CartPage;
 
-// BaseTest — provides browser setup and teardown
+// BaseTest ï¿½ provides browser setup and teardown
 import com.ecommerce.utils.BaseTest;
 
-// Assert — verifies expected vs actual results
+// Assert ï¿½ verifies expected vs actual results
 import org.testng.Assert;
 
-// Test annotation — marks method as test case
+// Test annotation ï¿½ marks method as test case
 import org.testng.annotations.Test;
 
-// PUBLIC CLASS — extends BaseTest
-// Inherits setUp() — Chrome opens before each test
-// Inherits tearDown() — Chrome closes after each test
+// PUBLIC CLASS ï¿½ extends BaseTest
+// Inherits setUp() ï¿½ Chrome opens before each test
+// Inherits tearDown() ï¿½ Chrome closes after each test
 public class CartTest extends BaseTest {
 
     // =====================================================
-    // PRIVATE HELPER METHOD — loginAndGoToInventory
+    // PRIVATE HELPER METHOD ï¿½ loginAndGoToInventory
     // Purpose: Logs in before every cart test
-    // private — only used inside this class
-    // void — returns nothing
+    // private ï¿½ only used inside this class
+    // void ï¿½ returns nothing
     // Avoids repeating login code in every test
     // =====================================================
     private void loginAndGoToInventory() {
@@ -42,13 +42,13 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 1 — Add Single Item to Cart
+    // TEST CASE 1 ï¿½ Add Single Item to Cart
     // =====================================================
 
     @Test(description = "Add one product to cart and verify badge count")
     public void testAddSingleItemToCart() {
 
-        // Login first — cart requires being logged in
+        // Login first ï¿½ cart requires being logged in
         loginAndGoToInventory();
 
         // Create InventoryPage to interact with products
@@ -58,7 +58,7 @@ public class CartTest extends BaseTest {
         // This clicks the Add to Cart button for this product
         inventoryPage.addProductToCart("sauce-labs-backpack");
 
-        // ASSERTION — cart badge should show "1"
+        // ASSERTION ï¿½ cart badge should show "1"
         // getCartBadgeCount() reads orange number on cart icon
         Assert.assertEquals(
             inventoryPage.getCartBadgeCount(),
@@ -68,7 +68,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 2 — Add Multiple Items to Cart
+    // TEST CASE 2 ï¿½ Add Multiple Items to Cart
     // =====================================================
 
     @Test(description = "Add multiple products and verify badge count")
@@ -83,7 +83,7 @@ public class CartTest extends BaseTest {
         inventoryPage.addProductToCart("sauce-labs-bike-light");
         inventoryPage.addProductToCart("sauce-labs-bolt-t-shirt");
 
-        // ASSERTION — badge should show "3"
+        // ASSERTION ï¿½ badge should show "3"
         Assert.assertEquals(
             inventoryPage.getCartBadgeCount(),
             "3",
@@ -92,7 +92,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 3 — Verify Cart Page Opens Correctly
+    // TEST CASE 3 ï¿½ Verify Cart Page Opens Correctly
     // =====================================================
 
     @Test(description = "Cart page should open with correct title")
@@ -110,13 +110,13 @@ public class CartTest extends BaseTest {
         // Create CartPage object to interact with cart page
         CartPage cartPage = new CartPage(getDriver());
 
-        // ASSERTION 1 — should be on cart page
+        // ASSERTION 1 ï¿½ should be on cart page
         Assert.assertTrue(
             cartPage.isOnCartPage(),
             "Should be on cart page after clicking cart icon"
         );
 
-        // ASSERTION 2 — cart page title should say "Your Cart"
+        // ASSERTION 2 ï¿½ cart page title should say "Your Cart"
         Assert.assertEquals(
             cartPage.getCartTitle(),
             "Your Cart",
@@ -125,7 +125,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 4 — Verify Item Name in Cart
+    // TEST CASE 4 ï¿½ Verify Item Name in Cart
     // =====================================================
 
     @Test(description = "Added product name should appear in cart")
@@ -143,7 +143,7 @@ public class CartTest extends BaseTest {
 
         CartPage cartPage = new CartPage(getDriver());
 
-        // ASSERTION — cart item names list should contain product name
+        // ASSERTION ï¿½ cart item names list should contain product name
         // getCartItemNames() returns List of all item name strings
         // .contains() checks if specific name exists in that list
         Assert.assertTrue(
@@ -153,7 +153,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 5 — Verify Item Count in Cart Page
+    // TEST CASE 5 ï¿½ Verify Item Count in Cart Page
     // =====================================================
 
     @Test(description = "Cart item count should match added products")
@@ -172,7 +172,7 @@ public class CartTest extends BaseTest {
 
         CartPage cartPage = new CartPage(getDriver());
 
-        // ASSERTION — cart should have exactly 2 items
+        // ASSERTION ï¿½ cart should have exactly 2 items
         Assert.assertEquals(
             cartPage.getCartItemCount(),
             2,
@@ -181,10 +181,10 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 6 — Remove Single Item from Cart
+    // TEST CASE 6 ï¿½ Remove Single Item from Cart
     // =====================================================
 
- // TEST CASE 6 — Remove Single Item from Cart
+ // TEST CASE 6 ï¿½ Remove Single Item from Cart
     @Test(description = "Remove one item and verify cart updates")
     public void testRemoveSingleItem() {
 
@@ -202,34 +202,34 @@ public class CartTest extends BaseTest {
         CartPage cartPage = new CartPage(getDriver());
 
         // FIX: Use exact product name as displayed on cart page
-        // Capital letters matter — must match getText() exactly
+        // Capital letters matter ï¿½ must match getText() exactly
         // "Sauce Labs Backpack" not "sauce-labs-backpack"
         cartPage.removeItem("Sauce Labs Backpack");
 
-        // Small wait — give page time to update after removal
+        // Small wait ï¿½ give page time to update after removal
         try {
             // Thread.sleep pauses execution for 1 second (1000 ms)
             // Gives browser time to re-render page after removal
             Thread.sleep(1000);
         } catch (InterruptedException e) {
-            // InterruptedException must be caught — Java rule
+            // InterruptedException must be caught ï¿½ Java rule
             e.printStackTrace();
         }
 
-        // ASSERTION 1 — cart should now have only 1 item
+        // ASSERTION 1 ï¿½ cart should now have only 1 item
         Assert.assertEquals(
             cartPage.getCartItemCount(),
             1,
             "Cart should have 1 item after removing one"
         );
 
-        // ASSERTION 2 — removed item should NOT be in cart anymore
+        // ASSERTION 2 ï¿½ removed item should NOT be in cart anymore
         Assert.assertFalse(
             cartPage.getCartItemNames().contains("Sauce Labs Backpack"),
             "Removed item should not appear in cart"
         );
 
-        // ASSERTION 3 — remaining item should still be in cart
+        // ASSERTION 3 ï¿½ remaining item should still be in cart
         Assert.assertTrue(
             cartPage.getCartItemNames().contains("Sauce Labs Bike Light"),
             "Remaining item should still be in cart"
@@ -238,7 +238,7 @@ public class CartTest extends BaseTest {
 
 
     // =====================================================
-    // TEST CASE 7 — Remove All Items from Cart
+    // TEST CASE 7 ï¿½ Remove All Items from Cart
     // =====================================================
 
     @Test(description = "Remove all items and verify cart is empty")
@@ -261,13 +261,13 @@ public class CartTest extends BaseTest {
         // This loops through all Remove buttons and clicks each
         cartPage.removeAllItems();
 
-        // ASSERTION 1 — cart should be empty now
+        // ASSERTION 1 ï¿½ cart should be empty now
         Assert.assertTrue(
             cartPage.isCartEmpty(),
             "Cart should be empty after removing all items"
         );
 
-        // ASSERTION 2 — item count should be 0
+        // ASSERTION 2 ï¿½ item count should be 0
         Assert.assertEquals(
             cartPage.getCartItemCount(),
             0,
@@ -276,7 +276,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 8 — Continue Shopping Button
+    // TEST CASE 8 ï¿½ Continue Shopping Button
     // =====================================================
 
     @Test(description = "Continue shopping should go back to products")
@@ -294,7 +294,7 @@ public class CartTest extends BaseTest {
         // Click Continue Shopping button
         cartPage.continueShopping();
 
-        // ASSERTION — should be back on inventory page
+        // ASSERTION ï¿½ should be back on inventory page
         Assert.assertTrue(
             getDriver().getCurrentUrl().contains("inventory"),
             "Continue shopping should return to inventory page"
@@ -302,7 +302,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 9 — Cart Proceeds to Checkout
+    // TEST CASE 9 ï¿½ Cart Proceeds to Checkout
     // =====================================================
 
     @Test(description = "Checkout button should go to checkout page")
@@ -320,7 +320,7 @@ public class CartTest extends BaseTest {
         // Click Checkout button
         cartPage.proceedToCheckout();
 
-        // ASSERTION — URL should contain checkout-step-one
+        // ASSERTION ï¿½ URL should contain checkout-step-one
         Assert.assertTrue(
             getDriver().getCurrentUrl().contains("checkout-step-one"),
             "Checkout button should go to checkout step one"
@@ -328,7 +328,7 @@ public class CartTest extends BaseTest {
     }
 
     // =====================================================
-    // TEST CASE 10 — Verify Item Price in Cart
+    // TEST CASE 10 ï¿½ Verify Item Price in Cart
     // =====================================================
 
     @Test(description = "Product price should be correct in cart")
@@ -338,13 +338,13 @@ public class CartTest extends BaseTest {
 
         InventoryPage inventoryPage = new InventoryPage(getDriver());
 
-        // Add Sauce Labs Backpack — known price is $29.99
+        // Add Sauce Labs Backpack ï¿½ known price is $29.99
         inventoryPage.addProductToCart("sauce-labs-backpack");
         inventoryPage.goToCart();
 
         CartPage cartPage = new CartPage(getDriver());
 
-        // ASSERTION — price should match expected value
+        // ASSERTION ï¿½ price should match expected value
         Assert.assertEquals(
             cartPage.getItemPrice("Sauce Labs Backpack"),
             "$29.99",
