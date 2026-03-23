@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Full automation suite — 40 tests total -->
+<suite name="SauceDemo Automation Suite" verbose="2">
+
+    <!-- TEST 1: Login tests — 10 tests -->
+    <test name="Login Tests">
+        <classes>
+            <class name="com.ecommerce.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- TEST 2: Product tests — 10 tests -->
+    <test name="Product Tests">
+        <classes>
+            <class name="com.ecommerce.tests.ProductTest"/>
+        </classes>
+    </test>
+
+    <!-- TEST 3: Cart tests — 10 tests -->
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <!-- TEST 4: Checkout tests — 10 tests -->
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

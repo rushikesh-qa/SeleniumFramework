@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-23T10:15:17 IST" name="Default suite" finished-at="2026-03-23T10:19:11 IST" duration-ms="233909">
+    <groups>
+    </groups>
+    <test started-at="2026-03-23T10:15:17 IST" name="Default test" finished-at="2026-03-23T10:19:11 IST" duration-ms="233909">
+      <class name="com.ecommerce.tests.ProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:17 IST" name="setUp" finished-at="2026-03-23T10:15:20 IST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddThreeProductsToCart()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:20 IST" name="testAddThreeProductsToCart" description="Adding 3 products shows badge count 3" finished-at="2026-03-23T10:15:23 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddThreeProductsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:23 IST" name="tearDown" finished-at="2026-03-23T10:15:23 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:23 IST" name="setUp" finished-at="2026-03-23T10:15:24 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartBadgeAppearsAfterAdd()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:24 IST" name="testCartBadgeAppearsAfterAdd" description="Adding product should show cart badge" finished-at="2026-03-23T10:15:37 IST" duration-ms="12656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartBadgeAppearsAfterAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:37 IST" name="tearDown" finished-at="2026-03-23T10:15:37 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:37 IST" name="setUp" finished-at="2026-03-23T10:15:39 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInventoryPageTitle()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:39 IST" name="testInventoryPageTitle" description="Inventory page title should be correct" finished-at="2026-03-23T10:15:41 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInventoryPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:41 IST" name="tearDown" finished-at="2026-03-23T10:15:42 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:42 IST" name="setUp" finished-at="2026-03-23T10:15:43 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInventoryPageURL()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:43 IST" name="testInventoryPageURL" description="After login URL should contain inventory" finished-at="2026-03-23T10:15:46 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInventoryPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:46 IST" name="tearDown" finished-at="2026-03-23T10:15:46 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:46 IST" name="setUp" finished-at="2026-03-23T10:15:48 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigateToCartFromInventory()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:48 IST" name="testNavigateToCartFromInventory" description="Cart icon should navigate to cart page" finished-at="2026-03-23T10:15:51 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToCartFromInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:51 IST" name="tearDown" finished-at="2026-03-23T10:15:51 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:51 IST" name="setUp" finished-at="2026-03-23T10:15:53 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductCount()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:53 IST" name="testProductCount" description="Inventory page should show 6 products" finished-at="2026-03-23T10:15:56 IST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:56 IST" name="tearDown" finished-at="2026-03-23T10:15:56 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:56 IST" name="setUp" finished-at="2026-03-23T10:15:57 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortAtoZ()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:15:57 IST" name="testSortAtoZ" description="Sort A to Z should work correctly" finished-at="2026-03-23T10:16:01 IST" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortAtoZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:01 IST" name="tearDown" finished-at="2026-03-23T10:16:01 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:01 IST" name="setUp" finished-at="2026-03-23T10:16:02 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortPriceHighToLow()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:02 IST" name="testSortPriceHighToLow" description="Sort price high to low should work" finished-at="2026-03-23T10:16:06 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:06 IST" name="tearDown" finished-at="2026-03-23T10:16:06 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:06 IST" name="setUp" finished-at="2026-03-23T10:16:08 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortPriceLowToHigh()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:08 IST" name="testSortPriceLowToHigh" description="Sort price low to high should work" finished-at="2026-03-23T10:16:11 IST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:11 IST" name="tearDown" finished-at="2026-03-23T10:16:12 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:12 IST" name="setUp" finished-at="2026-03-23T10:16:13 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortZtoA()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:13 IST" name="testSortZtoA" description="Sort Z to A should work correctly" finished-at="2026-03-23T10:16:17 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortZtoA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ProductTest@70ed52de]" started-at="2026-03-23T10:16:17 IST" name="tearDown" finished-at="2026-03-23T10:16:17 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.tests.ProductTest -->
+      <class name="com.ecommerce.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:17 IST" name="setUp" finished-at="2026-03-23T10:16:18 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAllFieldsEmpty()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:18 IST" name="testAllFieldsEmpty" description="All empty fields should show error" finished-at="2026-03-23T10:16:25 IST" duration-ms="7170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:25 IST" name="tearDown" finished-at="2026-03-23T10:16:26 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:26 IST" name="setUp" finished-at="2026-03-23T10:16:27 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBackHomeAfterOrder()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:27 IST" name="testBackHomeAfterOrder" description="Back home returns to products page" finished-at="2026-03-23T10:16:37 IST" duration-ms="10333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackHomeAfterOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:37 IST" name="tearDown" finished-at="2026-03-23T10:16:38 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:38 IST" name="setUp" finished-at="2026-03-23T10:16:39 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCancelOnStepOne()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:39 IST" name="testCancelOnStepOne" description="Cancel on step 1 should return to cart" finished-at="2026-03-23T10:16:46 IST" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelOnStepOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:46 IST" name="tearDown" finished-at="2026-03-23T10:16:46 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:46 IST" name="setUp" finished-at="2026-03-23T10:16:48 IST" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteCheckoutFlow()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:48 IST" name="testCompleteCheckoutFlow" description="Complete full checkout flow end to end" finished-at="2026-03-23T10:16:55 IST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:55 IST" name="tearDown" finished-at="2026-03-23T10:16:55 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:55 IST" name="setUp" finished-at="2026-03-23T10:16:57 IST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteCheckoutHelperMethod()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:16:57 IST" name="testCompleteCheckoutHelperMethod" description="completeCheckout helper should work" finished-at="2026-03-23T10:17:06 IST" duration-ms="9187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCheckoutHelperMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:06 IST" name="tearDown" finished-at="2026-03-23T10:17:06 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:06 IST" name="setUp" finished-at="2026-03-23T10:17:07 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testItemTotalOnOverview()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:07 IST" name="testItemTotalOnOverview" description="Item total should show correct price" finished-at="2026-03-23T10:17:15 IST" duration-ms="7201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemTotalOnOverview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:15 IST" name="tearDown" finished-at="2026-03-23T10:17:15 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:15 IST" name="setUp" finished-at="2026-03-23T10:17:16 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMissingFirstName()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:16 IST" name="testMissingFirstName" description="Empty first name should show error" finished-at="2026-03-23T10:17:23 IST" duration-ms="7292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:23 IST" name="tearDown" finished-at="2026-03-23T10:17:24 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:24 IST" name="setUp" finished-at="2026-03-23T10:17:25 IST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMissingLastName()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:25 IST" name="testMissingLastName" description="Empty last name should show error" finished-at="2026-03-23T10:17:32 IST" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:32 IST" name="tearDown" finished-at="2026-03-23T10:17:32 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:32 IST" name="setUp" finished-at="2026-03-23T10:17:34 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMissingPostalCode()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:34 IST" name="testMissingPostalCode" description="Empty postal code should show error" finished-at="2026-03-23T10:17:41 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingPostalCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:41 IST" name="tearDown" finished-at="2026-03-23T10:17:41 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:41 IST" name="setUp" finished-at="2026-03-23T10:17:43 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTaxDisplayedOnOverview()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:43 IST" name="testTaxDisplayedOnOverview" description="Tax should be shown on overview page" finished-at="2026-03-23T10:17:50 IST" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaxDisplayedOnOverview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CheckoutTest@496bc455]" started-at="2026-03-23T10:17:50 IST" name="tearDown" finished-at="2026-03-23T10:17:50 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.tests.CheckoutTest -->
+      <class name="com.ecommerce.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:50 IST" name="setUp" finished-at="2026-03-23T10:17:51 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleItemsToCart()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:51 IST" name="testAddMultipleItemsToCart" description="Add multiple products and verify badge count" finished-at="2026-03-23T10:17:52 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:52 IST" name="tearDown" finished-at="2026-03-23T10:17:52 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:52 IST" name="setUp" finished-at="2026-03-23T10:17:54 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSingleItemToCart()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:54 IST" name="testAddSingleItemToCart" description="Add one product to cart and verify badge count" finished-at="2026-03-23T10:17:55 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:55 IST" name="tearDown" finished-at="2026-03-23T10:17:55 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:55 IST" name="setUp" finished-at="2026-03-23T10:17:56 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartItemCount()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:56 IST" name="testCartItemCount" description="Cart item count should match added products" finished-at="2026-03-23T10:17:57 IST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartItemCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:57 IST" name="tearDown" finished-at="2026-03-23T10:17:57 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:57 IST" name="setUp" finished-at="2026-03-23T10:17:59 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartPageOpens()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:59 IST" name="testCartPageOpens" description="Cart page should open with correct title" finished-at="2026-03-23T10:17:59 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:17:59 IST" name="tearDown" finished-at="2026-03-23T10:18:00 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:00 IST" name="setUp" finished-at="2026-03-23T10:18:01 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContinueShopping()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:01 IST" name="testContinueShopping" description="Continue shopping should go back to products" finished-at="2026-03-23T10:18:02 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:02 IST" name="tearDown" finished-at="2026-03-23T10:18:02 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:02 IST" name="setUp" finished-at="2026-03-23T10:18:04 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testItemNameInCart()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:04 IST" name="testItemNameInCart" description="Added product name should appear in cart" finished-at="2026-03-23T10:18:04 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemNameInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:04 IST" name="tearDown" finished-at="2026-03-23T10:18:04 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:04 IST" name="setUp" finished-at="2026-03-23T10:18:06 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testItemPriceInCart()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:06 IST" name="testItemPriceInCart" description="Product price should be correct in cart" finished-at="2026-03-23T10:18:07 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemPriceInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:07 IST" name="tearDown" finished-at="2026-03-23T10:18:07 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:07 IST" name="setUp" finished-at="2026-03-23T10:18:08 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProceedToCheckout()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:08 IST" name="testProceedToCheckout" description="Checkout button should go to checkout page" finished-at="2026-03-23T10:18:09 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:09 IST" name="tearDown" finished-at="2026-03-23T10:18:09 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:09 IST" name="setUp" finished-at="2026-03-23T10:18:11 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveAllItems()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:11 IST" name="testRemoveAllItems" description="Remove all items and verify cart is empty" finished-at="2026-03-23T10:18:42 IST" duration-ms="30975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveAllItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:42 IST" name="tearDown" finished-at="2026-03-23T10:18:42 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:42 IST" name="setUp" finished-at="2026-03-23T10:18:43 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveSingleItem()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:43 IST" name="testRemoveSingleItem" description="Remove one item and verify cart updates" finished-at="2026-03-23T10:18:45 IST" duration-ms="1818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveSingleItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.CartTest@59402b8f]" started-at="2026-03-23T10:18:45 IST" name="tearDown" finished-at="2026-03-23T10:18:45 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.tests.CartTest -->
+      <class name="com.ecommerce.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:45 IST" name="setUp" finished-at="2026-03-23T10:18:47 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBothFieldsEmpty()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:47 IST" name="testBothFieldsEmpty" description="Both empty fields should show error" finished-at="2026-03-23T10:18:47 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBothFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:47 IST" name="tearDown" finished-at="2026-03-23T10:18:47 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:47 IST" name="setUp" finished-at="2026-03-23T10:18:49 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyPassword()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:49 IST" name="testEmptyPassword" description="Empty password should show error" finished-at="2026-03-23T10:18:49 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:49 IST" name="tearDown" finished-at="2026-03-23T10:18:49 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:49 IST" name="setUp" finished-at="2026-03-23T10:18:51 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyUsername()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:51 IST" name="testEmptyUsername" description="Empty username should show error" finished-at="2026-03-23T10:18:51 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:51 IST" name="tearDown" finished-at="2026-03-23T10:18:51 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:51 IST" name="setUp" finished-at="2026-03-23T10:18:53 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUser()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:53 IST" name="testLockedOutUser" description="Locked out user should see error message" finished-at="2026-03-23T10:18:53 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:53 IST" name="tearDown" finished-at="2026-03-23T10:18:53 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:53 IST" name="setUp" finished-at="2026-03-23T10:18:55 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:55 IST" name="testLogout" description="User should be able to logout successfully" finished-at="2026-03-23T10:18:56 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:56 IST" name="tearDown" finished-at="2026-03-23T10:18:56 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:56 IST" name="setUp" finished-at="2026-03-23T10:18:57 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPerformanceGlitchUser()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:18:57 IST" name="testPerformanceGlitchUser" description="Performance glitch user login should succeed" finished-at="2026-03-23T10:19:03 IST" duration-ms="5452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerformanceGlitchUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:03 IST" name="tearDown" finished-at="2026-03-23T10:19:03 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:03 IST" name="setUp" finished-at="2026-03-23T10:19:04 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProblemUserLogin()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:04 IST" name="testProblemUserLogin" description="Problem user should login but UI has bugs" finished-at="2026-03-23T10:19:05 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProblemUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:05 IST" name="tearDown" finished-at="2026-03-23T10:19:05 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:05 IST" name="setUp" finished-at="2026-03-23T10:19:06 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:06 IST" name="testValidLogin" description="Valid user should login successfully" finished-at="2026-03-23T10:19:07 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:07 IST" name="tearDown" finished-at="2026-03-23T10:19:07 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:07 IST" name="setUp" finished-at="2026-03-23T10:19:08 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWrongPassword()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:08 IST" name="testWrongPassword" description="Wrong password should show error" finished-at="2026-03-23T10:19:09 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:09 IST" name="tearDown" finished-at="2026-03-23T10:19:09 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:09 IST" name="setUp" finished-at="2026-03-23T10:19:10 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWrongUsername()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:10 IST" name="testWrongUsername" description="Wrong username should show error" finished-at="2026-03-23T10:19:11 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.LoginTest@7188af83]" started-at="2026-03-23T10:19:11 IST" name="tearDown" finished-at="2026-03-23T10:19:11 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

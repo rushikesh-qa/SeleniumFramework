@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ecommerce.tests.CartTest">
+        <methods>
+          <include name="testProceedToCheckout"/>
+          <include name="testItemNameInCart"/>
+          <include name="testRemoveAllItems"/>
+          <include name="testAddMultipleItemsToCart"/>
+          <include name="testContinueShopping"/>
+          <include name="testItemPriceInCart"/>
+          <include name="testCartItemCount"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddSingleItemToCart"/>
+          <include name="testCartPageOpens"/>
+          <include name="testRemoveSingleItem"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.CartTest -->
+      <class name="com.ecommerce.tests.ProductTest">
+        <methods>
+          <include name="testInventoryPageURL"/>
+          <include name="testProductCount"/>
+          <include name="testInventoryPageTitle"/>
+          <include name="testSortPriceLowToHigh"/>
+          <include name="testSortAtoZ"/>
+          <include name="testSortPriceHighToLow"/>
+          <include name="setUp"/>
+          <include name="testSortZtoA"/>
+          <include name="tearDown"/>
+          <include name="testCartBadgeAppearsAfterAdd"/>
+          <include name="testAddThreeProductsToCart"/>
+          <include name="testNavigateToCartFromInventory"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.ProductTest -->
+      <class name="com.ecommerce.tests.CheckoutTest">
+        <methods>
+          <include name="testBackHomeAfterOrder"/>
+          <include name="testItemTotalOnOverview"/>
+          <include name="testTaxDisplayedOnOverview"/>
+          <include name="testMissingFirstName"/>
+          <include name="testMissingLastName"/>
+          <include name="setUp"/>
+          <include name="testCancelOnStepOne"/>
+          <include name="testCompleteCheckoutFlow"/>
+          <include name="testMissingPostalCode"/>
+          <include name="tearDown"/>
+          <include name="testCompleteCheckoutHelperMethod"/>
+          <include name="testAllFieldsEmpty"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.CheckoutTest -->
+      <class name="com.ecommerce.tests.LoginTest">
+        <methods>
+          <include name="testEmptyPassword"/>
+          <include name="testProblemUserLogin"/>
+          <include name="testWrongUsername"/>
+          <include name="testEmptyUsername"/>
+          <include name="testWrongPassword"/>
+          <include name="setUp"/>
+          <include name="testValidLogin"/>
+          <include name="testLockedOutUser"/>
+          <include name="tearDown"/>
+          <include name="testPerformanceGlitchUser"/>
+          <include name="testBothFieldsEmpty"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
