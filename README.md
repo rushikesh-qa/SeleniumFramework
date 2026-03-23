@@ -337,8 +337,10 @@ while (!driver.findElements(removeButtons).isEmpty()) {
 
 ## 👤 Author
 
-**Rushi**
+**Rushikesh-QA**
 - Framework: Selenium WebDriver + Java + TestNG
 - Pattern: Page Object Model
 - Site Tested: https://www.saucedemo.com
 - Total Tests: 40 Automated Test Scenarios
+
+---
